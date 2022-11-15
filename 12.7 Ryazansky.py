@@ -4,4 +4,4 @@ money = int(input())
 for each in per_cent:
     deposits.append(int(per_cent[each] * money * 0.01))
 print(deposits)
-print('Максимальная сумма которую вы можете заработать -' max(deposits))
+print('Максимальная сумма которую вы можете заработать - ' + str(max(deposits)))
